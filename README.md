@@ -5,10 +5,9 @@ EPiwikAnalyticsWidget is a Yii Widget that allows site administrators to quickly
 
 #### Usage
 
-~~~
-[PHP]
+``` PHP
     <?php $this->widget('ext.analytics.EPiwikAnalyticsWidget', array('id'=>$site_id, 'baseUrl'=>$baseUrl)); ?>
-~~~
+```
 #### Params
 The widget requires 2 parameters: the Piwik site id and the url of the piwik server
 
