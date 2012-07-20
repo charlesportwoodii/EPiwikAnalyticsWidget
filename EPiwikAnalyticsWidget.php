@@ -38,7 +38,7 @@ class EPiwikAnalyticsWidget extends CWidget
 								->registerScript('PiwikAnalytics',
 			"
 			try {
-			var piwikTracker = Piwik.getTracker({$this->baseUrl} + \"piwik.php\", {$this->id});
+			var piwikTracker = Piwik.getTracker(\"{$this->baseUrl}\" + \"piwik.php\", {$this->id});
 			piwikTracker.trackPageView();
 			piwikTracker.enableLinkTracking();
 			} catch( err ) {}
